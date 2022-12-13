@@ -5,7 +5,7 @@
 //  Created by mac on 11/23/22.
 //
 
-struct RockAndMorty: Decodable {
+struct RickAndMorty: Decodable {
     let info: Info
     let results: [Character]
 }

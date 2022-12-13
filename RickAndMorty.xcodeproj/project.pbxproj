@@ -14,8 +14,9 @@
 		045ACDE8292E27BE00235E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045ACDE6292E27BE00235E41 /* LaunchScreen.storyboard */; };
 		045ACDF1292E2B1000235E41 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ACDF0292E2B1000235E41 /* CharacterTableViewController.swift */; };
 		045ACDF3292E2B2B00235E41 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ACDF2292E2B2B00235E41 /* TableViewCell.swift */; };
-		045ACDF5292E4AF400235E41 /* NetworkManadger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ACDF4292E4AF400235E41 /* NetworkManadger.swift */; };
+		045ACDF5292E4AF400235E41 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ACDF4292E4AF400235E41 /* NetworkManager.swift */; };
 		045ACDF7292E4B0A00235E41 /* RickAndMorty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ACDF6292E4B0A00235E41 /* RickAndMorty.swift */; };
+		0464F5FC2948753C0080EDC4 /* CharacterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464F5FB2948753C0080EDC4 /* CharacterDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		045ACDE9292E27BE00235E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045ACDF0292E2B1000235E41 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
 		045ACDF2292E2B2B00235E41 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		045ACDF4292E4AF400235E41 /* NetworkManadger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManadger.swift; sourceTree = "<group>"; };
+		045ACDF4292E4AF400235E41 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		045ACDF6292E4B0A00235E41 /* RickAndMorty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMorty.swift; sourceTree = "<group>"; };
+		0464F5FB2948753C0080EDC4 /* CharacterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,7 @@
 		045ACDF9292E4B2C00235E41 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				045ACDF4292E4AF400235E41 /* NetworkManadger.swift */,
+				045ACDF4292E4AF400235E41 /* NetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				045ACDF0292E2B1000235E41 /* CharacterTableViewController.swift */,
+				0464F5FB2948753C0080EDC4 /* CharacterDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -195,10 +198,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0464F5FC2948753C0080EDC4 /* CharacterDetailsViewController.swift in Sources */,
 				045ACDF3292E2B2B00235E41 /* TableViewCell.swift in Sources */,
 				045ACDF7292E4B0A00235E41 /* RickAndMorty.swift in Sources */,
 				045ACDF1292E2B1000235E41 /* CharacterTableViewController.swift in Sources */,
-				045ACDF5292E4AF400235E41 /* NetworkManadger.swift in Sources */,
+				045ACDF5292E4AF400235E41 /* NetworkManager.swift in Sources */,
 				045ACDDC292E27BD00235E41 /* AppDelegate.swift in Sources */,
 				045ACDDE292E27BD00235E41 /* SceneDelegate.swift in Sources */,
 			);
